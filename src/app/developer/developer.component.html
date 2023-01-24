@@ -1,0 +1,6 @@
+<p>{{robertUser.lastName}}</p>
+<p>{{robertUser.firstName}}</p>
+<p>{{robertUser.age}}</p>
+<p>{{robertUser.gender}}</p>
+<p>{{robertUser.bio}}</p>
+<app-skill *ngFor="let robertUser of robertUser.skills" [skill]="robertUser"></app-skill> 
